@@ -6,5 +6,5 @@ NOTE: To be able to run this you need Android Studio 4.0 You can go and download
 I like this Composable UI
 Here is the Demo
 
-![Image description](link-to-image)
+![Demo Screen showing different text formats made by Jetpack Compose](https://github.com/nickyrabit/JetPackComposeTextFormatting/blob/master/device.png)
 
