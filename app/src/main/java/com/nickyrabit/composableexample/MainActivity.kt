@@ -15,6 +15,15 @@ import androidx.ui.text.font.FontStyle
 import androidx.ui.text.font.FontWeight
 import androidx.ui.tooling.preview.Preview
 
+
+/**
+ * Nicholaus Legnard
+ *  +255685097713
+ *  nicky@nickylegnard.com
+ *  nickyrabit@gmail.com
+ *
+ *
+ * */
 class MainActivity : AppCompatActivity() {
    
  
@@ -44,11 +53,19 @@ Padding(20.dp){
 
         ){
 
+            //Aligning texts in column
+            // set Text style to blue for Custom Color do this Color(0x431323)
             Text("I am Custom Color Blue", style = TextStyle(color = Color.Blue))
+
+            // place yuor fonts into the fonts folder inside res folder
             Text("I am Custom Font Montserrat", style = TextStyle(fontFamily = FontFamily(Font(name="montserrat_semibold.otf"))))
+            // font style is italic here
             Text("I am Italic",style = TextStyle(fontStyle = FontStyle.Italic))
+            // Weight is Bold
             Text("I am BOLD", style = TextStyle(fontWeight = FontWeight.Bold))
+            // Set the font size inside the TextStyle
             Text("I am Large Text", style = TextStyle(fontSize = 25.sp))
+            // This is normal simpler way to write the text
             Text("But We are all Custom  Made Fonts")
 
 
@@ -75,7 +92,7 @@ Padding(20.dp){
 
     
 }
-
+// Use this to make the Android Studio Composer viewer to show you UI
 @Preview
 @Composable
 fun DefaultPreview() {
