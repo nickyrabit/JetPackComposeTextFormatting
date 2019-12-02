@@ -1,0 +1,2 @@
+rootProject.name='ComposableExample'
+include ':app'
