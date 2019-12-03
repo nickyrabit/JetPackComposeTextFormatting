@@ -1,7 +1,8 @@
 # JetPackComposeTextFormatting
 I have shown how to use the Kotlin UI Kit , Jetpack Compose to format texts
 
-NOTE: To be able to run this you need Android Studio 4.0 You can go and download the Preview Version
+NOTE: - To be able to run this you need Android Studio 4.0 You can go and download the Preview Version
+      - For detailed explanatin see this article https://bit.ly/2qYcBeN
 
 I like this Composable UI
 Here is the Demo
